@@ -7,7 +7,7 @@ class Person
 
   def get_married(person)
     self.partner = person
-    if person.claa != Person
+    if person.class != Person
       raise PartnerError
     else
       person.partner = self
